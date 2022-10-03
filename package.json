@@ -1,0 +1,28 @@
+{
+  "name": "@aerialist7/react-query-sample",
+  "version": "0.0.0",
+  "private": true,
+  "license": "Apache License 2.0",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite --host"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "4.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@vitejs/plugin-react": "2.0.1",
+    "typescript": "4.8.2",
+    "vite": "3.0.9"
+  },
+  "eslintConfig": {
+    "extends": ".eslintrc.json"
+  }
+}
